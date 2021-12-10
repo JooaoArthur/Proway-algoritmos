@@ -1,24 +1,24 @@
-Algoritmo "recaptulação 3"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "recaptulaÃ§Ã£o 3"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Rubem Oliota
-// Descrição   : obter 2 numeros e realizar 4 operações matematicas
+// DescriÃ§Ã£o   : obter 2 numeros e realizar 4 operaÃ§Ãµes matematicas
 // Autor(a)    : joao arthur
 // Data atual  : 09/12/2021
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    numeroA, numeroB, resultado: real
    resposta: caractere
    opcao: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   escreval("vamos realizar algumas operações matematicas agora, que tal?")
+   escreval("vamos realizar algumas operaÃ§Ãµes matematicas agora, que tal?")
    leia(resposta)
 
    se resposta = "sim" entao
-      escreval("Ok, vamos lá!")
+      escreval("Ok, vamos lÃ¡!")
 
       escreval("Vamos resolver agora!! Escolha qual voce prefere")
 
@@ -45,27 +45,27 @@ Inicio
          escreval("resultado =",resultado)
 
       caso 2
-         escreval("Realizando a subtração entre",numeroA," e",numeroB)
+         escreval("Realizando a subtraÃ§Ã£o entre",numeroA," e",numeroB)
          resultado <- numreroA - numeroB
          escreval("resultado =",resultado)
 
       caso 3
-         escreval("Realizando a multiplicação entre",numeroA," e",numeroB)
+         escreval("Realizando a multiplicaÃ§Ã£o entre",numeroA," e",numeroB)
          resultado <- numeroA * numeroB
          escreval("resultado =",resultado)
 
       caso 4
-         escreval("Realizando a divisão entre ",numeroA<" e",numeroB)
+         escreval("Realizando a divisÃ£o entre ",numeroA" e",numeroB)
          resultado <- numeroA / numeroB
          escreval("resultado =",resultado)
 
       outrocaso
-         escreval("Aí não tem hein.., escolhe a opção certa aí!!")
+         escreval("AÃ­ nÃ£o tem hein.., escolhe a opÃ§Ã£o certa aÃ­!!")
 
       fimescolha
 
    senao
-      escreval("Aff..., fica pra próxima")
+      escreval("Aff..., fica pra prÃ³xima")
    fimse
 
 
