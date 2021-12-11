@@ -55,7 +55,7 @@ Inicio
          escreval("resultado =",resultado)
 
       caso 4
-         escreval("Realizando a divis√£o entre ",numeroA" e",numeroB)
+         escreval("Realizando a divis„o entre ",numeroA" e",numeroB)
          resultado <- numeroA / numeroB
          escreval("resultado =",resultado)
 
